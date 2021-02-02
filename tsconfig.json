@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "CommonJS",
+    "paths": {
+      "@e2e/*": ["../e2e/*"]
+    },
+    "target": "ES2015",
+    "types": ["node", "@wdio/sync", "@wdio/jasmine-framework"]
+  },
+  "include": [
+    "./**/*.ts"
+  ]
+}
